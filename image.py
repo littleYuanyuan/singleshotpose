@@ -4,7 +4,7 @@ import random
 import os
 from PIL import Image, ImageChops, ImageMath
 import numpy as np
-
+#11111111111
 def scale_image_channel(im, c, v):
     cs = list(im.split())
     cs[c] = cs[c].point(lambda i: i * v)
